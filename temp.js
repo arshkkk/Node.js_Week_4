@@ -1,0 +1,1 @@
+console.log(parseFloat(process.argv[2])+1)

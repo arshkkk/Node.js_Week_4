@@ -39,7 +39,6 @@ passport.use(new LocalStrategy(User.authenticate()))
 app.use(passport.initialize())
 
 
-
 app.use('/user',userRouter)
 
 
